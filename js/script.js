@@ -1,4 +1,5 @@
 //back logic
+// first pig latin translator
 var translate=function(phrase){
   var words = phrase.split(" ");
   var vowels = ["a", "e", "i", "o", "u"];
@@ -30,6 +31,7 @@ var translate=function(phrase){
   return result;
 }
 
+//second pig latin translation
 var piglatin = function(phrase){
   var words = phrase.split(" ");
   var result = [];
